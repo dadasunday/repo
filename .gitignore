@@ -1,0 +1,25 @@
+.vscode/
+.vscode/*
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+dist/
+build/
+.DS_Store
+Thumbs.db
+*.log
+
+# OneDrive
+~$*
+
+# Node
+node_modules/
+
+# IDEs
+.idea/

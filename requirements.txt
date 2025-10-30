@@ -1,0 +1,5 @@
+# Minimal dependencies for development and testing
+pytest>=7.0
+
+# Add TTS / audio libraries here when you pick an implementation, e.g.:
+# torchaudio, librosa, soundfile, pyttsx3, TTS (coqui) etc.
