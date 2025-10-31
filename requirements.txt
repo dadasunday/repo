@@ -1,5 +1,12 @@
-# Minimal dependencies for development and testing
-pytest>=7.0
+# Core TTS and audio processing
+TTS>=0.21.1  # Coqui TTS
+torch>=2.0.0  # PyTorch (CPU by default, add cuda version if you have GPU)
+numpy>=1.20.0
+librosa>=0.10.0  # Audio processing
+soundfile>=0.12.1  # Audio I/O
+ffmpeg-python>=0.2.0  # Video/audio conversion
 
-# Add TTS / audio libraries here when you pick an implementation, e.g.:
-# torchaudio, librosa, soundfile, pyttsx3, TTS (coqui) etc.
+# Development and testing
+pytest>=7.0
+black>=23.0.0  # Code formatting
+isort>=5.12.0  # Import sorting
