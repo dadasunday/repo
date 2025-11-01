@@ -1,0 +1,12 @@
+[
+  {
+    "filename": "new_video1_0000.wav",
+    "duration": 2.8328344671201813,
+    "sample_rate": 22050,
+    "rms_db": -22.298576831817627,
+    "peak_db": -7.951646447181702,
+    "crest_db": 14.346930384635925,
+    "centroid_hz": 2568.584249726656,
+    "bandwidth_hz": 2038.6255079209482,
+    "rolloff_hz": 4212.192144626524,
+    "flatness": 
